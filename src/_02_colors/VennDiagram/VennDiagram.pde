@@ -1,1 +1,15 @@
 size(600,600);
+int centerX=200;
+int centerY=200;
+int circleWidth=200;
+int circleHeight=200;
+textSize(20);
+fill(255, 0, 0, 100);
+ellipse (centerX, centerY, circleWidth, circleHeight);
+fill(0, 255, 0, 100);
+ellipse (centerX+150, centerY, circleWidth, circleHeight);
+fill(0, 0, 255, 100);
+ellipse (centerX+75, centerY+125, circleWidth, circleHeight);
+text("ME", centerX+130, centerY-100);
+text("ME", centerX-20, centerY-100);
+text("ME", centerX+60, centerY+25);
