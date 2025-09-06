@@ -17,6 +17,8 @@ public static void main(String[] args) {
 		for (int i=0;i<names.length; i++) {
 			if (input.equalsIgnoreCase(names[i])) {
 				JOptionPane.showMessageDialog(null,names[i]+" is "+remarks[i]);
+				
+				
 			}
 		}
 
